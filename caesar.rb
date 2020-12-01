@@ -14,7 +14,8 @@ def translate(message, shift)
   end
   p "What do you want to cipher?"
   text = gets.chomp
-  p "in wich shift? (1 to 26)"
+  p "in which shift? (1 to 25)"
   shif = gets.chomp.to_i
   translate(text, shif)
+
   
